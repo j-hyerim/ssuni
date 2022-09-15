@@ -73,9 +73,9 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0px;
-  margin-bottom: 2%;
+  margin-bottom: 5px;
   background: #fff;
+  /* border: 4px solid #fff; */
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -227,11 +227,11 @@ html[xmlns] .flexslider .slides {
   border-radius: 20px;
 }
 .flex-control-paging li a:hover {
-  background: rgb(192, 192, 192);
-  background: rgba(179, 179, 179, 0.7);
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
 }
 .flex-control-paging li a.flex-active {
-  background: rgb(250, 250, 250);
+  background: #fff;
   background: rgba(255, 255, 255, 0.9);
   cursor: default;
 }

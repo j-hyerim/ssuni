@@ -11,18 +11,22 @@
   <link href="./css/base.css" rel="stylesheet" type="text/css">
   <!-- 3. 모바일 화면서식 -->
   <link href="./css/mobile.css" rel="stylesheet" type="text/css">
-  <!-- 4. 플렉스 슬라이드 서식 -->
-  <link rel="stylesheet" href="./css/flexslider.css" type="text/css"> 
+
+  <!-- 플렉스 슬라이드 서식 -->
+  <link href="./css/flexslider.css" rel="stylesheet" type="text/css">
+  
   <!-- 아이콘폰트 주소 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <!-- 벤더프리픽스 -->
   <script src="./script/prefixfree.min.js"></script>
-  <!-- jquery -->
+
+  <!-- 제이쿼리 소스 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-  <!-- flexslider jquery -->
+  <!-- 플렉스 슬라이드 제이쿼리 소스 -->
   <script src="./script/jquery.flexslider.js"></script>
+
 </head>
 <body>
   <input type="checkbox" id="toggle">
@@ -107,39 +111,24 @@
   <!-- 메인콘텐츠 시작 -->
   <main>
     <article class="slide">
-      <h2>슬라이드</h2>
-<!-- 모바일일때 나오는 슬라이드 -->
+      <h2>비주얼 슬라이드</h2>
+      <!-- 모바일 화면일때 나오는 슬라이드 -->
       <div class="flexslider mslide">
         <ul class="slides">
-          <li>
-            <a href="#" title="event1"><img src="./images/m_main01.jpg" alt="mainimage1"></a>
-          </li>
-          <li>
-            <a href="#" title="event2"><img src="./images/m_main02.jpg" alt="mainimage2"></a>
-          </li>
-          <li>
-            <a href="#" title="event3"><img src="./images/m_main03.jpg" alt="mainimage3"></a>
-          </li>
-          <li>
-            <a href="#" title="event4"><img src="./images/m_main04.jpg" alt="mainimage4"></a>
-          </li>
+          <li><a href="#" title="이벤트1"><img src="./images/m_main01.jpg" alt="메인01"></a></li>
+          <li><a href="#" title="이벤트2"><img src="./images/m_main02.jpg" alt="메인02"></a></li>
+          <li><a href="#" title="이벤트3"><img src="./images/m_main03.jpg" alt="메인03"></a></li>
+          <li><a href="#" title="이벤트4"><img src="./images/m_main04.jpg" alt="메인04"></a></li>
         </ul>
       </div>
-<!-- pc tablet일때 나오는 슬라이드 -->
+
+      <!-- pc, tablet 화면일때 나오는 슬라이드 -->
       <div class="flexslider pcslide">
         <ul class="slides">
-          <li>
-            <a href="#" title="event1"><img src="./images/main01.jpg" alt="mainimage1"></a>
-          </li>
-          <li>
-            <a href="#" title="event2"><img src="./images/main02.jpg" alt="mainimage2"></a>
-          </li>
-          <li>
-            <a href="#" title="event3"><img src="./images/main03.jpg" alt="mainimage3"></a>
-          </li>
-          <li>
-            <a href="#" title="event4"><img src="./images/main04.jpg" alt="mainimage4"></a>
-          </li>
+          <li><a href="#" title="이벤트1"><img src="./images/main01.jpg" alt="메인01"></a></li>
+          <li><a href="#" title="이벤트2"><img src="./images/main02.jpg" alt="메인02"></a></li>
+          <li><a href="#" title="이벤트3"><img src="./images/main03.jpg" alt="메인03"></a></li>
+          <li><a href="#" title="이벤트4"><img src="./images/main04.jpg" alt="메인04"></a></li>
         </ul>
       </div>
     </article>
@@ -148,48 +137,48 @@
       <h2>콘텐츠영역</h2>
       <article class="new_item">
         <h2>신제품 출시</h2>
-        <a href="#" title="d">
-          <img src="./images/mbn01ov.png" alt="newarticle">
+        <a href="a.html" title="신제품출시">
+          <img src="./images/mbn01ov.png" alt="신제품출시">
         </a>
       </article>
 
       <article class="brand">
         <h2>브랜드 소개</h2>
-        <a href="#" title="d" class="brand_banner">브랜드 스토리</a>
-        <a href="#" title="d">
-          <img src="./images/mbn0201.png" alt="newarticle">
+        <a href="a.html" title="브랜드 스토리" class="brand_banner">브랜드 스토리</a>
+        <a href="a.html" title="창업상담">
+          <img src="./images/mbn0201.png" alt="창업상담">
         </a>
       </article>
 
       <article class="ad">
         <h2>방송광고협찬</h2>
-        <a href="#" title="d">
-          <img src="./images/msns.png" alt="newarticle">
+        <a href="a.html" title="협찬">
+          <img src="./images/msns.png" alt="드라마협찬">
         </a>
-      </article>
-      
-      <article class="store">
-        <h2>매장안내</h2>
-          <a href="#" title="x">신규매장안내</a>
       </article>
 
       <article class="notice">
-        <h2>NOTICE<i class="fas fa-plus"></i></h2>
+        <h2>Notice<i class="fas fa-plus"></i></h2>
         <ul>
-          <li><a href="#" title="공지">[오픈예정점] 디저트카페 쑤니 서울 강남점, 화성 안녕디저트카페 쑤니 서울 강남점, 화성 안녕</a></li>
-          <li><a href="#" title="공지">[프로모션]"달롤달롤해" 디저트 세트 3종 할인 이벤트디저트카페 쑤니 서울 강남점, 화성 안녕</a></li>
-          <li><a href="#" title="공지">[프로모션]핫한 여름을 나는 달콤한 방법! 슈니케이크 2디저트카페 쑤니 서울 강남점, 화성 안녕</a></li>
-          <li><a href="#" title="공지">[프로모션]디저트카페 쑤니 강남구청역점 파격 할인!디저트카페 쑤니 서울 강남점, 화성 안녕</a></li>
+          <li><a href="a.html" title="내용">쑤니 서현점, 로맨틱 가을을 위한 로즈라떼를 제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.</a></li>
+          <li><a href="a.html" title="내용">카카오 선물하기에서 쑤니를 찾아보세요. 행운이 있습니다.제공합니다.제공합니다.제공합니다.제공합니다.</a></li>
+          <li><a href="a.html" title="내용">종이 쿠폰 없이 편하게 적립하자! 스탬프팡을 하세요.</a></li>
+          <li><a href="a.html" title="내용">[오픈예정점] 디저트카페 쑤니 서울 강남점 오픈을 축하합니다.</a></li>
         </ul>
       </article>
-      
+
+      <article class="store">
+        <h2>매장안내</h2>
+        <a href="#" title="매장안내">신규매장안내</a>
+      </article>
+
       <article class="news">
-        <h2>NEWS<i class="fas fa-plus"></i></h2>
+        <h2>News<i class="fas fa-plus"></i></h2>
         <ul>
-          <li><a href="#" title="news">[Next Daily]JH그룹 '쑤니', 오픈 1주년 기념 이벤트 선봬JH그룹 '쑤니', 오픈 1주년 기념 이벤트 선봬</a></li>
-          <li><a href="#" title="news">[이투데이]프리미업 디저트카페 쑤니, KPGA선수권대회프리미업 디저트카페 쑤니, KPGA선수권대회</a></li>
-          <li><a href="#" title="news">[매일경제]쑤니, 오는 8월까지 빙수 디저트 아침메뉴 할인쑤니, 오는 8월까지 빙수 디저트 아침메뉴 할인</a></li>
-          <li><a href="#" title="news">[머니S]12회 대구 경북 프랜차이즈 창업박람회 개최</a></li>
+          <li><a href="a.html" title="내용">[IT동아] 디저트카페 쑤니, 카카오톡 선물하기에서 사용할 수 있습니다.</a></li>
+          <li><a href="a.html" title="내용">[Next Daily]JH그룹 "쑤니", 오픈을 축하합니다.</a></li>
+          <li><a href="a.html" title="내용">[이투데이]프리미엄 디저트카페 쑤니, KPGA결재서비스 추가</a></li>
+          <li><a href="a.html" title="내용">[매일경제] 쑤니, 오는 8월까지 빙수,디저트카페에서 서비스 합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.제공합니다.</a></li>
         </ul>
       </article>
     </section>    
@@ -199,8 +188,8 @@
   <footer>
     <nav class="f_lnb">
       <ul>
-        <li><a href="#" title="회사소개">회사소개 / 오시는길</a></li>
-        <li><a href="#" title="가맹안내">가맹안내</a></li>
+        <li><a href="a.html" title="회사소개">회사소개 / 오시는길</a></li>
+        <li><a href="a.html" title="가맹안내">가맹안내</a></li>
         <li><a href="tel:080-0000-0000" title="가맹문의">가맹문의 : 080-0000-0000</a></li>
         <li><a href="tel:080-0000-0000" title="일반문의">일반문의 : 080-0000-0000</a></li>
         <li><a href="tel:080-0000-0000" title="홍보">홍보, 마케팅 문의 : 080-0000-0000</a></li>
@@ -209,25 +198,28 @@
 
     <nav class="sns">
       <ul>
-        <li><a href="#" title="kakao"><img src="./images/foot_sns01.png" alt="kakao"></a></li>
-        <li><a href="#" title="faceb"><img src="./images/foot_sns02.png" alt="faceb"></a></li>
-        <li><a href="#" title="twit"><img src="./images/foot_sns03.png" alt="twit"></a></li>
-        <li><a href="#" title="insta"><img src="./images/foot_sns04.png" alt="insta"></a></li>
-        <li><a href="#" title="blog"><img src="./images/foot_sns05.png" alt="blog"></a></li>
+        <li><a href="s.html" title="카카오스토리"><img src="./images/foot_sns01.png" alt="카카오스토리 이미지"></a></li>
+        <li><a href="f.html" title="페이스북"><img src="./images/foot_sns02.png" alt="페이스북 이미지"></a></li>
+        <li><a href="t.html" title="트위터"><img src="./images/foot_sns03.png" alt="트위터 이미지"></a></li>
+        <li><a href="i.html" title="인스타그램"><img src="./images/foot_sns04.png" alt="인스타그램"></a></li>
+        <li><a href="b.html" title="블로그"><img src="./images/foot_sns05.png" alt="블로그"></a></li>
       </ul>
     </nav>
     <address>
-      <p>(주)치어스 &amp; 경기도 분당구 성남대로 000번길 0-00 모션빌딩 0충</p>
-      <p>법인등록번호 00000-0000Copytight&copy;2021ssunikorea ALL rights reserved.</p>
+      <p>(주)치어스 &amp; 경기도 분당구 성남대로 000번길 0-00 모선빌딩 0층</p>
+      <p>법인등록번호 00000-00000Copyright&copy;2021 ssunikorea All rights reserved.</p>
     </address>
   </footer>
+
   <script>
-  $(window).load(function() {
+    // Can also be used with $(document).ready()
+    $(window).load(function() {
       $('.flexslider').flexslider({
         animation: "slide"
+        //animation: "fade"
       });
     });
   </script>
-  
+
 </body>
 </html>
