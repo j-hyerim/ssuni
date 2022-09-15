@@ -114,11 +114,11 @@ main{margin-bottom:30px;}
 article img{width:100%;}
 .con{
   margin:0px auto;
-  max-width:500px;
+  /* width: 100%; */
   display:grid;
   padding:0px 1%;
   box-sizing: border-box;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   grid-template-areas:
   "item"
   "brand"
@@ -127,6 +127,10 @@ article img{width:100%;}
   "notice"  
   "news";
 }
+/* @media screen and (max-width:476px) {
+  .con{width: 100%;}
+} */
+
 .con > h2{display:none;}
 .con article{
   /* background:#ffff00; */
@@ -143,7 +147,7 @@ article img{width:100%;}
 .brand_banner{
   display:block;
   width:100%;
-  height:164px;
+  height:130px;
   background-size:100%;
   background-repeat: no-repeat;
   text-indent:-9999px;
