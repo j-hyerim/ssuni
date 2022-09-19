@@ -120,6 +120,8 @@ main{
 .pcslide{display:none;}
 article img{width:100%;}
 .con{
+  /* margin:0px auto; */
+  /* max-width:414px; */
   display:grid;
   padding:0px 1%;
   box-sizing: border-box;
@@ -133,6 +135,9 @@ article img{width:100%;}
   "news";
 }
 
+@media screen and (max-width:476px) {
+  .con{width:100%;}
+}
 
 .con > h2{display:none;}
 .con article{
@@ -162,10 +167,11 @@ article img{width:100%;}
   height:190px;
 }
 .notice li, .news li{
-text-indent: 10px;
-min-width: 320px;
-max-width: 414px;
+  text-indent:10px;
+  min-width:320px;
+  max-width:414px;
 }
+
 /* 푸터영역 서식 */
 footer{
   padding:10px 0px;

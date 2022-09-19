@@ -51,10 +51,7 @@ i.fa-plus{
   transform:translateY(10px);
 }
 .notice li, .news li{
-  /* min-width:320px; */
-  /* max-width:414px; */
-  line-height:200%;
-  /* text-indent:10px; */
+  line-height:210%;
   overflow:hidden; /*영역을 벗어난 콘텐츠 숨기기*/
   text-overflow: ellipsis; /* 텍스트가 넘치면 생략기호 나오게 하기*/
   white-space: nowrap; /* 글자 다음줄로 넘기지 않기 */
