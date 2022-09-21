@@ -108,6 +108,8 @@ i.fa-search{
 
 /* 메인콘텐츠 서식 */
 main{
+  width: 100%;
+  overflow: hidden;
   padding-top:70px;
   margin-bottom:30px;
 }
@@ -119,9 +121,11 @@ main{
 
 .pcslide{display:none;}
 article img{width:100%;}
+/* .con *{width:80%;} */
 .con{
   /* margin:0px auto; */
   /* max-width:414px; */
+  /* max-width: 100%; */
   display:grid;
   padding:0px 1%;
   box-sizing: border-box;
@@ -187,3 +191,15 @@ footer a{font-weight:500;}
 .sns{padding:16px 0px;}
 
 }
+@media screen and (max-width:375px) {
+
+  .notice li, .news li{
+    text-indent:10px;
+    max-width:375px;
+  }
+  #sh{
+    width: 80%;
+  }
+}
+
+
